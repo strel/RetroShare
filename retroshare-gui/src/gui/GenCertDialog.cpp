@@ -337,7 +337,7 @@ void GenCertDialog::setupState()
 	}
 	else if(!mEntropyOk)
 	{
-		ui.genButton->setToolTip(tr("<p>Node creation is disabled until enough randomness is collected. Please mouve your mouse around until you reach at least 20%.</p>")) ;
+		ui.genButton->setToolTip(tr("<p>Node creation is disabled until enough randomness is collected. Please move your mouse around until you reach at least 20%.</p>")) ;
 
 		ui.genButton->setVisible(false) ;
 		ui.generate_label->setVisible(false) ;
